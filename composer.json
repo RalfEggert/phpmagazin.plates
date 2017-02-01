@@ -1,6 +1,6 @@
 {
   "name": "ralfeggert/phpmagazin.plates",
-  "description": "Beispielprojekt für PHP Magazin über Plates ",
+  "description": "Beispielprojekt für PHP Magazin über Plates",
   "type": "project",
   "license": "MIT",
   "minimum-stability": "dev",
