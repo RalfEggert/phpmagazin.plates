@@ -1,0 +1,24 @@
+{
+  "name": "ralfeggert/phpmagazin.plates",
+  "description": "Beispielprojekt für PHP Magazin über Plates ",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Ralf Eggert",
+      "email": "ralf@travello.de",
+      "homepage": "https://www.travello.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "league/plates": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}
