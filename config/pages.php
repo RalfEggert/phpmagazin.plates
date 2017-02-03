@@ -7,14 +7,7 @@
  * @copyright  Travello GmbH, 2017
  */
 
-$title = 'PHP Magazin goes Plates';
-
-$this->layout(
-    'layouts::default',
-    [
-        'title' => $title
-    ]
-);
-?>
-<h1><?= $title ?></h1>
-<p>Hello, <?= $this->e($name) ?></p>
+return [
+    'index'          => 'Einfaches Beispiel',
+    'complex-layout' => 'Komplexes Layout',
+];

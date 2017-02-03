@@ -17,7 +17,7 @@ $engine = new Engine(null, 'phtml');
 $engine->addFolder('layouts', PROJECT_ROOT . '/templates/layouts');
 $engine->addFolder('pages', PROJECT_ROOT . '/templates/pages');
 
-$template = $engine->make('pages::index');
+$template = $engine->make('pages::complex-layout');
 
 $pages = include PROJECT_ROOT . '/config/pages.php';
 
