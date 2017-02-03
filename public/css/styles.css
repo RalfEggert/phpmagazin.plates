@@ -5,6 +5,11 @@
  * @link       https://www.travello.de/
  * @copyright  Travello GmbH, 2017
  */
+
+.navbar {
+    margin-top: 10px;
+}
+
 .nav-tabs {
     margin-bottom : 20px;
 }

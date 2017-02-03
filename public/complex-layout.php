@@ -13,7 +13,8 @@ define('PROJECT_ROOT', realpath(__DIR__ . '/..'));
 
 require_once PROJECT_ROOT . '/vendor/autoload.php';
 
-$engine = new Engine(null, 'phtml');
+$engine = new Engine();
+$engine->setFileExtension('phtml');
 $engine->addFolder('layouts', PROJECT_ROOT . '/templates/layouts');
 $engine->addFolder('pages', PROJECT_ROOT . '/templates/pages');
 
@@ -23,6 +24,7 @@ $pages = include PROJECT_ROOT . '/config/pages.php';
 
 echo $template->render(
     [
+        'title' => 'Plates - Komplexes Layout',
         'pages' => $pages,
     ]
 );

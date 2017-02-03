@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title><?= $this->e($title) ?></title>
+</head>
+<body>
+<h1><?= $this->e($title) ?></h1>
+<p>
+    Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den
+    süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße.
+</p>
+</body>
+</html>

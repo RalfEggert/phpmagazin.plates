@@ -1,4 +1,5 @@
 <?php
+
 /**
  * PHP Magazin: Artikel über Plates
  *
@@ -16,7 +17,16 @@
 </head>
 <body>
 <div class="container">
-    <?= $this->section('content') ?>
+<?= $this->fetch('layouts::header', ['pages' => $pages]) ?>
+<div class="row">
+    <div class="col-sm-9">
+        <?= $this->section('content') ?>
+    </div>
+    <div class="col-sm-3">
+        <?= $this->fetch('layouts::sidebar') ?>
+    </div>
 </div>
+</div>
+<?= $this->fetch('layouts::footer') ?>
 </body>
 </html>
